@@ -8,6 +8,6 @@ a local folder of plain text Markdown files."
   - [Tmux](https://github.com/tmux/tmux) - "tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached."
   - [Homebrew](https://brew.sh/) - "The Missing Package Manager for macOS (or Linux)"
   - [Git](https://git-scm.com/) - "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
-  - [Zsh](https://www.zsh.org/) | [Setup Reference](https://github.com/ervinismu/workspace/blob/main/zsh_setup.md) - "Zsh is a shell designed for interactive use, although it is also a powerful scripting language"
-  - [Starship](https://starship.rs/) - "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+  - [Zsh](https://www.zsh.org/) | [Setup Reference](zsh_setup.md) - "Zsh is a shell designed for interactive use, although it is also a powerful scripting language"
+  - [Starship](https://starship.rs/) | [Setup Reference](starship_setup.md) - "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
 - [Chrome](https://www.google.com/chrome) - Browser
