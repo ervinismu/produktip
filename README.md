@@ -1,6 +1,5 @@
 # Workspace
 
-# Tools
 - [Obsidian](https://obsidian.md) - "Obsidian is a powerful knowledge base on top of
 - [Vscode](https://code.visualstudio.com/) - "Free. Built on open source. Runs everywhere."
 a local folder of plain text Markdown files."
