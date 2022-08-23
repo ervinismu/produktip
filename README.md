@@ -10,4 +10,5 @@ a local folder of plain text Markdown files."
   - [Git](https://git-scm.com/) - "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
   - [Zsh](https://www.zsh.org/) | [Setup Reference](zsh_setup.md) - "Zsh is a shell designed for interactive use, although it is also a powerful scripting language"
   - [Starship](https://starship.rs/) | [Setup Reference](starship_setup.md) - "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+  - [Vim](https://www.vim.org/) | [Setup Reference](vim_setup.sh) - "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X."
 - [Chrome](https://www.google.com/chrome) - Browser
