@@ -3,6 +3,7 @@
 - [Obsidian](https://obsidian.md) - "Obsidian is a powerful knowledge base on top of
 - [Vscode](https://code.visualstudio.com/) | [Setup Reference](vscode_setup.md) - "Free. Built on open source. Runs everywhere."
 a local folder of plain text Markdown files."
+- [Rectangle](https://github.com/rxhanson/Rectangle) - "Move and resize windows on macOS with keyboard shortcuts and snap areas"
 - [Iterm](https://iterm2.com) - "Terminal emulator, mac terminal replacement"
   - [Tmux](https://github.com/tmux/tmux) | [Setup Reference](tmux_setup.md) - "tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached."
   - [Homebrew](https://brew.sh/) - "The Missing Package Manager for macOS (or Linux)"
