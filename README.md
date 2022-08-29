@@ -12,3 +12,4 @@
   - [Vim](https://www.vim.org/) | [Setup Reference](vim_setup.sh) - "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X."
 - [Chrome](https://www.google.com/chrome) - Browser
 - [Docker](https://www.docker.com/) - "Develop faster. Run anywhere."
+- [Gcloud CLI](https://cloud.google.com/sdk/docs/install) - Libraries and tools for interacting with Google Cloud products and services.
