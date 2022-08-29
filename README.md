@@ -12,3 +12,4 @@ a local folder of plain text Markdown files."
   - [Starship](https://starship.rs/) | [Setup Reference](starship_setup.md) - "The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
   - [Vim](https://www.vim.org/) | [Setup Reference](vim_setup.sh) - "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X."
 - [Chrome](https://www.google.com/chrome) - Browser
+- [Docker](https://www.docker.com/) - "Develop faster. Run anywhere."
