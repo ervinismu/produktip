@@ -14,3 +14,4 @@
 - [Docker](https://www.docker.com/) - "Develop faster. Run anywhere."
 - [Gcloud CLI](https://cloud.google.com/sdk/docs/install) - Libraries and tools for interacting with Google Cloud products and services.
 - [Dbeaver](https://dbeaver.io/download/) - "Free universal dataabse tool"
+- [Postman](https://www.postman.com/) - Postman is an API platform for building and using APIs
