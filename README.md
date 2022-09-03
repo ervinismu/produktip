@@ -1,5 +1,13 @@
 # Workspace
-Who lives in my workspace. :eyes: :computer:
+Who lives in my workspace. :eyes:
+
+## Current Device :watermelon:
+|Name|Detail|
+|:---:|:---|
+| OS | MacOS Monterey (Version 12.5.1)|
+| Memory | 8gb |
+| Processor | Intel Core i5 |
+
 
 ## Desktop :computer:
 
