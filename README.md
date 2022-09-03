@@ -36,4 +36,5 @@ Who lives in my workspace. :eyes: :computer:
 |[Gcloud CLI](https://cloud.google.com/sdk/docs/install)||Libraries and tools for interacting with Google Cloud products and services.|
 |[fzf](https://github.com/junegunn/fzf)||🌸 A command-line fuzzy finder|
 |[bat](https://github.com/sharkdp/bat)||A cat(1) clone with wings.|
+|[asciinema](https://asciinema.org/)| | Record and share your terminal sessions, the simple way. |
 
