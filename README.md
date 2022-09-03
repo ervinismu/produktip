@@ -1,6 +1,7 @@
 # Workspace
+Who lives in my workspace. :eyes: :computer:
 
-## Desktop
+## Desktop :computer:
 |Name|Setup|About|
 |:--:|:--|:--|
 | [Obsidian](https://obsidian.md) | | "Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files." |
@@ -11,7 +12,7 @@
 |[Postman](https://www.postman.com/)||Postman is an API platform for building and using APIs|
 
 
-## Browser
+## Browser :globe_with_meridians:
 |Name|Setup|About|
 |:--:|:--|:--|
 | [Chrome](https://www.google.com/chrome) | | "Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files." |
@@ -19,7 +20,7 @@
 | [color picker](https://chrome.google.com/webstore/detail/color-picker/oghcfpacbadjkebhegcollgfhhjkalep) |||
 
 
-## Terminal
+## Terminal :sunrise_over_mountains:
 
 |Name|Setup|About|
 |:--:|:--|:--|
