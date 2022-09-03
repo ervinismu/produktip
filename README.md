@@ -2,6 +2,7 @@
 Who lives in my workspace. :eyes:
 
 ## Current Device :watermelon:
+
 |Name|Detail|
 |:---:|:---|
 | OS | MacOS Monterey (Version 12.5.1)|
