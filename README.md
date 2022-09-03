@@ -12,6 +12,8 @@
   - [Vim](https://www.vim.org/) | [Setup Reference](vim_setup.sh) - "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X."
 - [Chrome](https://www.google.com/chrome) - Browser
 - [Docker](https://www.docker.com/) - "Develop faster. Run anywhere."
+  - [duckduckgo](https://duckduckgo.com/about) - "For everyone who’s had enough of online tracking, DuckDuckGo lets you take back your online privacy now."
+  - [color picker](https://chrome.google.com/webstore/detail/color-picker/oghcfpacbadjkebhegcollgfhhjkalep)
 - [Gcloud CLI](https://cloud.google.com/sdk/docs/install) - Libraries and tools for interacting with Google Cloud products and services.
 - [Dbeaver](https://dbeaver.io/download/) - "Free universal dataabse tool"
 - [Postman](https://www.postman.com/) - Postman is an API platform for building and using APIs
