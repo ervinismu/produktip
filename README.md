@@ -18,7 +18,7 @@ Who lives in my workspace. :eyes:
 | [Rectangle](https://github.com/rxhanson/Rectangle) | | "Move and resize windows on macOS with keyboard shortcuts and snap areas" |
 | [Docker](https://www.docker.com/) | | "Develop faster. Run anywhere." |
 | [Dbeaver](https://dbeaver.io/download/) | | "Free universal dataabse tool" |
-| [Postman](https://www.postman.com/) ||Postman is an API platform for building and using APIs |
+| [Postman](https://www.postman.com/) | | Postman is an API platform for building and using APIs |
 | [lens](https://k8slens.dev/) | | "The way the world runs Kubernetes" |
 
 
