@@ -2,22 +2,24 @@
 Who lives in my workspace. :eyes: :computer:
 
 ## Desktop :computer:
+
 |Name|Setup|About|
 |:--:|:--|:--|
 | [Obsidian](https://obsidian.md) | | "Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files." |
 | [Vscode](https://code.visualstudio.com/) | [Setup Reference](vscode_setup.md) | "Free. Built on open source. Runs everywhere." |
 | [Rectangle](https://github.com/rxhanson/Rectangle) | | "Move and resize windows on macOS with keyboard shortcuts and snap areas" |
-|[Docker](https://www.docker.com/)||"Develop faster. Run anywhere."|
-|[Dbeaver](https://dbeaver.io/download/)||"Free universal dataabse tool"|
-|[Postman](https://www.postman.com/)||Postman is an API platform for building and using APIs|
+| [Docker](https://www.docker.com/) | | "Develop faster. Run anywhere." |
+| [Dbeaver](https://dbeaver.io/download/) | | "Free universal dataabse tool" |
+| [Postman](https://www.postman.com/) ||Postman is an API platform for building and using APIs |
 
 
 ## Browser :globe_with_meridians:
+
 |Name|Setup|About|
 |:--:|:--|:--|
 | [Chrome](https://www.google.com/chrome) | | "Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files." |
-| [duckduckgo](https://duckduckgo.com/about) || "For everyone who’s had enough of online tracking, DuckDuckGo lets you take back your online privacy now." |
-| [color picker](https://chrome.google.com/webstore/detail/color-picker/oghcfpacbadjkebhegcollgfhhjkalep) |||
+| [duckduckgo](https://duckduckgo.com/about) | | "For everyone who’s had enough of online tracking, DuckDuckGo lets you take back your online privacy now." |
+| [color picker](https://chrome.google.com/webstore/detail/color-picker/oghcfpacbadjkebhegcollgfhhjkalep) | | |
 
 
 ## Terminal :sunrise_over_mountains:
