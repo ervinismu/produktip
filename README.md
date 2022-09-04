@@ -47,4 +47,5 @@ Who lives in my workspace. :eyes:
 |[fzf](https://github.com/junegunn/fzf)||🌸 A command-line fuzzy finder|
 |[bat](https://github.com/sharkdp/bat)||A cat(1) clone with wings.|
 |[asciinema](https://asciinema.org/)| | Record and share your terminal sessions, the simple way. |
+|[Github Cli](https://cli.github.com/)|| "Take GitHub to the command line" |
 
