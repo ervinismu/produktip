@@ -18,7 +18,7 @@ Who lives in my workspace. :eyes:
 | [Vscode](https://code.visualstudio.com/) | [Setup Reference](vscode_setup.md) | "Free. Built on open source. Runs everywhere." |
 | [Rectangle](https://github.com/rxhanson/Rectangle) | | "Move and resize windows on macOS with keyboard shortcuts and snap areas" |
 | [Docker](https://www.docker.com/) | | "Develop faster. Run anywhere." |
-| [Dbeaver](https://dbeaver.io/download/) | | "Free universal dataabse tool" |
+| [Datagrip](https://www.jetbrains.com/datagrip/) | | "Many databases, one tool" |
 | [Postman](https://www.postman.com/) | | Postman is an API platform for building and using APIs |
 | [lens](https://k8slens.dev/) | | "The way the world runs Kubernetes" |
 
