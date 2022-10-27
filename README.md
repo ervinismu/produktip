@@ -21,6 +21,7 @@ Who lives in my workspace. :eyes:
 | [Datagrip](https://www.jetbrains.com/datagrip/) | | "Many databases, one tool" |
 | [Postman](https://www.postman.com/) | | Postman is an API platform for building and using APIs |
 | [lens](https://k8slens.dev/) | | "The way the world runs Kubernetes" |
+| [Amethyst](https://github.com/ianyh/Amethyst) ||Automatic tiling window manager for macOS à la xmonad. |
 
 
 ## Browser :globe_with_meridians:
