@@ -28,9 +28,8 @@ Who lives in my workspace. :eyes:
 
 |Name|Setup|About|
 |:--:|:--|:--|
-| [Chrome](https://www.google.com/chrome) | | "Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files." |
+| [Firefox](https://www.mozilla.org/en-US/firefox/new/) | | "web browser" |
 | [duckduckgo](https://duckduckgo.com/about) | | "For everyone who’s had enough of online tracking, DuckDuckGo lets you take back your online privacy now." |
-| [color picker](https://chrome.google.com/webstore/detail/color-picker/oghcfpacbadjkebhegcollgfhhjkalep) | | |
 
 
 ## Terminal :sunrise_over_mountains:
