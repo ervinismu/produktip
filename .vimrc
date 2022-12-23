@@ -1,8 +1,12 @@
 " enable line number
 set number
 
+" Show “invisible” characters
+set lcs=tab:▸\ ,trail:·,nbsp:_
+set list
+
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+autocmd VimEnter * NERDTree | wincmd p 
 
 " Open FZF Prompt using Ctrl + p
 nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF\<cr>"
@@ -27,3 +31,4 @@ call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'preservim/nerdtree'
 call plug#end()
+
