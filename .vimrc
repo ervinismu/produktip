@@ -1,3 +1,8 @@
+" ====================================================================
+" >> Author : https://github.com/ervinismu
+" >> Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
+" ====================================================================
+
 " ==================
 " >> Basic Config <<
 " ==================
@@ -54,10 +59,22 @@ let g:mkdp_page_title = '「${name}」'
 " =====================
 
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p 
+" autocmd VimEnter * NERDTree | wincmd p 
 
 " Open FZF Prompt using Ctrl + p
 nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF\<cr>"
+
+" toggle nerdtree nav using Ctrl + t
+nnoremap <C-t> :NERDTreeToggle<CR>
+
+
+
+" ========================
+" >> Vim Airline Config <<
+" ========================
+
+" Themes
+let g:airline_theme='luna'
 
 
 
@@ -69,5 +86,7 @@ call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'preservim/nerdtree'
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
