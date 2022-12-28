@@ -3,6 +3,8 @@
 " >> Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
 " ====================================================================
 
+
+
 " ==================
 " >> Basic Config <<
 " ==================
@@ -29,11 +31,14 @@ set ignorecase
 " Highlight dynamically as pattern is typed
 set incsearch
 
+" Enable mouse
+set mouse=a
 
 
-" ============================
-" >> MarkdownPreview Config <<
-" ============================
+
+" =====================================
+" >> PLUGIN : MarkdownPreview Config <<
+" =====================================
 
 " open mardownpreview using Ctrl + s
 nmap <C-s> <Plug>MarkdownPreview
@@ -54,33 +59,42 @@ let g:mkdp_page_title = '「${name}」'
 
 
 
-" =====================
-" >> NERDTree Config <<
-" =====================
+" ==============================
+" >> PLUGIN : NERDTree Config <<
+" ==============================
 
 " Start NERDTree and put the cursor back in the other window.
 " autocmd VimEnter * NERDTree | wincmd p 
 
 " Open FZF Prompt using Ctrl + p
-nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF\<cr>"
+nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF \<cr>"
 
 " toggle nerdtree nav using Ctrl + t
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 
 
-" ========================
-" >> Vim Airline Config <<
-" ========================
+" =================================
+" >> PLUGIN : Vim Airline Config <<
+" =================================
 
 " Themes
 let g:airline_theme='luna'
 
 
 
-" ========================
-" >> Plugins (vim-plug) <<
-" ========================
+" ==================================
+" >> PLUGIN : Easycomplete Config <<
+" ==================================
+
+let g:easycomplete_tab_trigger="<c-space>"
+let g:easycomplete_scheme="sharp"
+
+
+
+" ==========================================
+" >> PLUGIN : vim-plug for ,lib installer <<
+" ==========================================
 
 call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -88,5 +102,6 @@ call plug#begin()
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'jayli/vim-easycomplete'
 call plug#end()
 
