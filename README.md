@@ -3,11 +3,10 @@ Who lives in my workspace. :eyes:
 
 ## Current Device :watermelon:
 
-|Name|Detail|
-|:---:|:---|
-| OS | MacOS Monterey (Version 12.5.1)|
-| Memory | 8gb |
-| Processor | Intel Core i5 |
+|Name|OS|Memory|Processor|
+|:---:|:---|:---:|:---:|
+| Machine 1 | MacOS Monterey (Version 12.5.1) | 8gb | Intel Core i5 |
+| Machine 2 | KALI GNU | 16gb | Intel Core i5 |
 
 
 ## Desktop :computer:
