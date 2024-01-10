@@ -1,25 +1,28 @@
-" ====================================================================
-" >> Author : https://github.com/ervinismu
-" >> Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
-" ====================================================================
+" --------------------------------------------------------------------
+" > Author : https://github.com/ervinismu
+" > Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
+" --------------------------------------------------------------------
 
-" ===========
-" >> Basic <<
-" ===========
+
+" --------------------------------------------------------------------
+" >> Basic Config
+" --------------------------------------------------------------------
 
 " Show the filename in the window titlebar
 set title
 
-" enable line number
-set relativenumber
-" set number
+" enable hybrid line number
+set number relativenumber
 
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,nbsp:_
 set list
 
-" highlight current line
+" Highlight current line horizontally
 set cursorline
+
+" Highlight cursor line vertically
+set cursorcolumn
 
 " highlight search
 set hlsearch
@@ -33,30 +36,23 @@ set incsearch
 " Enable mouse
 set mouse=a
 
-" =====================
-" >> MarkdownPreview <<
-" =====================
+" Enable syntax highlight
+syntax on
 
-" open mardownpreview using Ctrl + s
-nmap <C-s> <Plug>MarkdownPreview
+" Set colorscheme to sorbet
+colorscheme sorbet
 
-" open mardownpreview using Ctrl + s Ctry + s
-nmap <C-s><C-s> <Plug>MarkdownPreviewStop
+" option will copy your current indentation when creating a new line
+set copyindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+set expandtab
 
-" open mardownpreview using Ctrl + p
-nmap <C-p> <Plug>MarkdownPreviewToggle
 
-" set to 1, echo preview page url in command line when open preview page
-" default is 0
-let g:mkdp_echo_preview_url = 1
-
-" preview page title
-" ${name} will be replace with the file name
-let g:mkdp_page_title = '「${name}」'
-
-" ==============
-" >> NERDTree <<
-" ==============
+" --------------------------------------------------------------------
+" >> NERDTree Config
+" --------------------------------------------------------------------
 
 " Start NERDTree and put the cursor back in the other window.
 " autocmd VimEnter * NERDTree | wincmd p
@@ -64,7 +60,10 @@ let g:mkdp_page_title = '「${name}」'
 " Open FZF Prompt using Ctrl + p
 nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF \<cr>"
 
-" toggle nerdtree nav using Ctrl + t
+" Enable tab split when search file using FZF
+let g:fzf_action = { 'enter': 'tab split' }
+
+" Toggle nerdtree nav using Ctrl + t
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 "function! RipgrepFzf(query, fullscreen)
@@ -76,28 +75,23 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 "endfunction
 "command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
 
-" =================
-" >> Vim Airline <<
-" =================
+
+
+" --------------------------------------------------------------------
+" >> Vim Airline Config
+" --------------------------------------------------------------------
 
 " Themes
 let g:airline_theme='luna'
 
-let g:easycomplete_tab_trigger="<c-space>"
-let g:easycomplete_scheme="sharp"
 
-" ==============
-" >> VIM Plug <<
-" ==============
+" --------------------------------------------------------------------
+" >> Plugins (vim-plug)
+" --------------------------------------------------------------------
 
 call plug#begin()
-  Plug 'ap/vim-css-color'
-  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'preservim/nerdtree'
-  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'jayli/vim-easycomplete'
-  Plug '/Users/backendengineer/Desktop/etc/vim-plugin/komplit'
 call plug#end()
