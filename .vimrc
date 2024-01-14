@@ -1,12 +1,14 @@
-" --------------------------------------------------------------------
+" ====================================================================
 " > Author : https://github.com/ervinismu
 " > Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
-" --------------------------------------------------------------------
+" ====================================================================
 
+" ==================
+" >> Basic Config <<
+" ==================
 
-" --------------------------------------------------------------------
-" >> Basic Config
-" --------------------------------------------------------------------
+" Turn on auto indent when paste, to avoid unexpected effect
+set paste
 
 " Show the filename in the window titlebar
 set title
@@ -50,9 +52,9 @@ set tabstop=4
 set expandtab
 
 
-" --------------------------------------------------------------------
-" >> NERDTree Config
-" --------------------------------------------------------------------
+" =====================
+" >> NERDTree Config <<
+" =====================
 
 " Start NERDTree and put the cursor back in the other window.
 " autocmd VimEnter * NERDTree | wincmd p
@@ -76,18 +78,9 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 "command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
 
 
-
-" --------------------------------------------------------------------
-" >> Vim Airline Config
-" --------------------------------------------------------------------
-
-" Themes
-let g:airline_theme='luna'
-
-
-" --------------------------------------------------------------------
-" >> Plugins (vim-plug)
-" --------------------------------------------------------------------
+" ========================
+" >> Plugins (vim-plug) <<
+" ========================
 
 call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
