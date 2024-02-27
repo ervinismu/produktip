@@ -1,10 +1,10 @@
-" ====================================================================
+" =========================================================================
 " > Author : https://github.com/ervinismu
 " > Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
-" ====================================================================
+" =========================================================================
 
 " ==================
-" >> Basic Config <<
+" >> Basic Config
 " ==================
 
 " Turn on auto indent when paste, to avoid unexpected effect
@@ -51,9 +51,19 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 
+" Set encoding
+set encoding=utf8
+
+" airline font
+let g:airline_powerline_fonts = 1
+
+" vim-go config
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
 
 " =====================
-" >> NERDTree Config <<
+" >> NERDTree Config
 " =====================
 
 " Start NERDTree and put the cursor back in the other window.
@@ -79,7 +89,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 
 " ========================
-" >> Plugins (vim-plug) <<
+" >> Plugins (vim-plug)
 " ========================
 
 call plug#begin()
@@ -87,4 +97,13 @@ call plug#begin()
   Plug 'preservim/nerdtree'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+
+" ==========
+" >> NOTE
+" ==========
+" vim-devicons : may be broken if you font set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
+" if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd.
