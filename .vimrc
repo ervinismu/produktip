@@ -105,5 +105,5 @@ call plug#end()
 " ==========
 " >> NOTE
 " ==========
-" vim-devicons : may be broken if you font set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
+" vim-devicons : may be broken if you dont set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
 " if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd.
