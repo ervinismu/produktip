@@ -1,10 +1,10 @@
-" =========================================================================
+" ====================================================================
 " > Author : https://github.com/ervinismu
 " > Repository : https://github.com/ervinismu/produktip/blob/main/.vimrc
-" =========================================================================
+" ====================================================================
 
 " ==================
-" >> Basic Config
+" >> Basic Config <<
 " ==================
 
 " Turn on auto indent when paste, to avoid unexpected effect
@@ -30,7 +30,7 @@ set cursorcolumn
 set hlsearch
 
 " Ignore case of searches
-set ignorecase
+" set ignorecase
 
 " Highlight dynamically as pattern is typed
 set incsearch
@@ -63,7 +63,7 @@ let g:go_info_mode='gopls'
 
 
 " =====================
-" >> NERDTree Config
+" >> NERDTree Config <<
 " =====================
 
 " Start NERDTree and put the cursor back in the other window.
@@ -75,8 +75,8 @@ nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : ''
 " Enable tab split when search file using FZF
 let g:fzf_action = { 'enter': 'tab split' }
 
-" Toggle nerdtree nav using Ctrl + t
-nnoremap <C-t> :NERDTreeToggle<CR>
+" Toggle nerdtree nav using Ctrl + s
+nnoremap <C-s> :NERDTreeToggle<CR>
 
 "function! RipgrepFzf(query, fullscreen)
 "  let command_fmt = 'rg --column --line-number --no-heading --color=always --smart-case -- %s || true'
@@ -89,7 +89,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 
 " ========================
-" >> Plugins (vim-plug)
+" >> Plugins (vim-plug) <<
 " ========================
 
 call plug#begin()
@@ -102,8 +102,9 @@ call plug#begin()
 call plug#end()
 
 
-" ==========
-" >> NOTE
-" ==========
+" NOTE :
 " vim-devicons : may be broken if you dont set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
 " if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd.
+
+" Ag the_silver_searcher
+set runtimepath^=~/.vim/bundle/ag
