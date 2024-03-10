@@ -1,14 +1,6 @@
 # Workspace
 Who lives in my workspace. :eyes:
 
-## Current Device :watermelon:
-
-|Name|OS|Memory|Processor|
-|:---:|:---|:---:|:---:|
-| Machine 1 | MacOS Monterey (Version 12.5.1) | 8gb | Intel Core i5 |
-| Machine 2 | KALI GNU | 16gb | Intel Core i5 |
-
-
 ## Desktop :computer:
 
 |Name|Setup|About|
@@ -21,7 +13,6 @@ Who lives in my workspace. :eyes:
 | [Postman](https://www.postman.com/) | | Postman is an API platform for building and using APIs |
 | [lens](https://k8slens.dev/) | | "The way the world runs Kubernetes" |
 | [Amethyst](https://github.com/ianyh/Amethyst) ||Automatic tiling window manager for macOS à la xmonad. |
-
 
 ## Browser :globe_with_meridians:
 
