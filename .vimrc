@@ -6,6 +6,12 @@
 " >> Basic Config <<
 " ==================
 
+" disable arrow button - you can comment this(L10 - L13) if you want to use arrow keyboard
+nnoremap <Left> :echo "No Left, you can do it!"<CR>
+nnoremap <Right> :echo "No Right, you can do it!"<CR>
+nnoremap <Up> :echo "No Up, you can do it!"<CR>
+nnoremap <Down> :echo "No Down, you can do it!"<CR>
+
 " Turn on auto indent when paste, to avoid unexpected effect
 set paste
 
@@ -78,7 +84,7 @@ set background=dark
 set t_Co=256
 set termguicolors
 let g:airline_theme = 'catppuccin_mocha'
-colorscheme catppuccin_mocha
+colorscheme sorbet
 
 " ========================
 " >> Plugins (vim-plug) <<
@@ -93,8 +99,9 @@ call plug#begin()
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'ryanoasis/vim-devicons'
   Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
 
 " NOTE :
 " vim-devicons : may be broken if you dont set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
-" if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd.
+" if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd
