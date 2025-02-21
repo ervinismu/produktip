@@ -1,0 +1,5 @@
+fullscreen = true
+theme = gruvbox-material
+font-size = 10
+#background-opacity = 0
+#background-blur = true
