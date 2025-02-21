@@ -9,6 +9,8 @@ Who lives in my workspace. :eyes:
 | [Docker](https://www.docker.com/) | | "Develop faster. Run anywhere." |
 | [Dbeaver](https://dbeaver.io/) | | "Universal Database Tool" |
 | [Postman](https://www.postman.com/) | | Postman is an API platform for building and using APIs |
+| [Flameshot](https://flameshot.org) | | Powerful, yet simple to use open-source screenshot software. |
+| [Openvpn](https://openvpn.net) | | Deliver secure access to your hybrid workforce |
 
 ## Browser :globe_with_meridians:
 
