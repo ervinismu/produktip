@@ -1,16 +1,11 @@
 " ===========================================
-" > Author : https://github.com/ervinismu
+" >> AUTHOR : https://github.com/ervinismu <<
 " ===========================================
 
-" ==================
-" >> Basic Config <<
-" ==================
 
-" disable arrow button - you can comment this(L10 - L13) if you want to use arrow keyboard
-nnoremap <Left> :echo "No Left, you can do it!"<CR>
-nnoremap <Right> :echo "No Right, you can do it!"<CR>
-nnoremap <Up> :echo "No Up, you can do it!"<CR>
-nnoremap <Down> :echo "No Down, you can do it!"<CR>
+" ===========
+" >> BASIC <<
+" ===========
 
 " Turn on auto indent when paste, to avoid unexpected effect
 set paste
@@ -61,9 +56,9 @@ let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
 
-" =====================
-" >> NERDTree Config <<
-" =====================
+" ==============
+" >> NERDTree <<
+" ==============
 
 " Open FZF Prompt using Ctrl + p
 nnoremap <silent> <expr> <c-p> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":FZF \<cr>"
@@ -86,9 +81,10 @@ set termguicolors
 let g:airline_theme = 'catppuccin_mocha'
 colorscheme sorbet
 
-" ========================
-" >> Plugins (vim-plug) <<
-" ========================
+
+" ==============
+" >> VIM-Plug <<
+" ==============
 
 call plug#begin()
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -105,3 +101,33 @@ call plug#end()
 " NOTE :
 " vim-devicons : may be broken if you dont set Droidsans font. reference -> https://github.com/ryanoasis/vim-devicons/wiki/Installation#set-font
 " if you dont use GuiVim, change your terminal font using droidSansMono or hackNerd
+
+
+" =================
+" >> VISUAL MODE <<
+" =================
+
+" copy to system clipboard with Ctrl + y
+vnoremap <C-y> :w !pbcopy<CR><CR>
+
+" disable arrow button - you can comment this(L10 - L13) if you want to use arrow keyboard
+vnoremap <Left> :echo "No Left, you can do it!"<CR>
+vnoremap <Right> :echo "No Right, you can do it!"<CR>
+vnoremap <Up> :echo "No Up, you can do it!"<CR>
+vnoremap <Down> :echo "No Down, you can do it!"<CR>
+
+
+" =================
+" >> NORMAL MODE <<
+" =================
+
+" paste from systemclipboard with Ctrl + p
+nnoremap <C-p> :r !pbpaste<CR>
+
+" disable arrow button - you can comment this(L10 - L13) if you want to use arrow keyboard
+nnoremap <Left> :echo "No Left, you can do it!"<CR>
+nnoremap <Right> :echo "No Right, you can do it!"<CR>
+nnoremap <Up> :echo "No Up, you can do it!"<CR>
+nnoremap <Down> :echo "No Down, you can do it!"<CR>
+
+
